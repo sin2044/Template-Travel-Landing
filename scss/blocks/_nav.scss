@@ -1,0 +1,28 @@
+.nav {
+  @include mobile {
+    display: none;
+  }
+  &__list {
+    display: flex;
+    gap: 50px;
+    @include tablet {
+      gap: 25px;
+    }
+  }
+  &__link {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+    transition: color 0.2s ease;
+
+
+    &:hover {
+      color: #0adddd;
+    }
+
+    &:active {
+      color: #01bbbb;
+    }
+  }
+}

@@ -1,0 +1,70 @@
+.intro {
+  padding-top: 286px;
+  min-height: 900px;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../img/intro/intro-bg.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @include retina {
+    background-image:
+      linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+      url("../img/intro/intro-bg@2x.webp");
+  }
+
+    @include tablet {
+    padding-top: 131px;    // 71 (хедер) + 60 (зазор)
+    min-height: 560px;
+  }
+
+  @include mobile {
+    padding-top: 111px;    // 71 + 40
+    min-height: 460px;
+  }
+
+  @include tablet {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__title {
+    margin-bottom: 30px;
+    max-width: 804px;
+    font-family: $secondary-font;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #ffffff;
+    @include tablet {
+      margin-bottom: 20px;
+      font-size: 32px;
+      text-align: center;
+      max-width: unset;
+    }
+    @include mobile {
+      font-size: 28px;
+    }
+  }
+
+  &__text {
+    margin-bottom: 40px;
+    max-width: 458px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.6);
+    @include tablet {
+      margin-bottom: 20px;
+      max-width: unset;
+      text-align: center;
+    }
+
+    p + p {
+      margin-top: 1em;
+    }
+  }
+}

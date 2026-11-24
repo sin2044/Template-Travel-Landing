@@ -1,0 +1,8 @@
+.form {
+  display: flex;
+  gap: 35px;
+  @include mobile {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

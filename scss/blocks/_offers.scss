@@ -1,0 +1,19 @@
+.offers {
+  @include scrollTopMargin();
+  &__text {
+    margin: 0 auto 60px;
+    max-width: 656px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    text-align: center;
+    opacity: 0.6;
+    color: #000000;
+    @include mobile {
+      margin: 0 auto 30px;
+    }
+    p + p {
+      margin-top: 1em;
+    }
+  }
+}

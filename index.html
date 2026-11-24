@@ -1,0 +1,1195 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Traveland</title>
+    <link rel="stylesheet" href="./js/slider/swiper-bundle.min.css" />
+    <script src="./js/slider/swiper-bundle.min.js" defer></script>
+    <script src="./js/main.js" defer></script>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__wrapper">
+          <div class="logo">
+            <a href="index.html" class="logo__link">
+              <img
+                src="./img/logo/logo-bright.svg"
+                alt="Traveland"
+                class="logo__img"
+              />
+            </a>
+          </div>
+          <nav class="header__nav nav">
+            <ul class="nav__list">
+              <li class="nav__item"><a href="#!" class="nav__link">Home</a></li>
+              <li class="nav__item">
+                <a href="#locations" class="nav__link">Location</a>
+              </li>
+              <li class="nav__item">
+                <a href="#blogs" class="nav__link">Blog</a>
+              </li>
+              <li class="nav__item">
+                <a href="#!" class="nav__link">About</a>
+              </li>
+              <li class="nav__item">
+                <a href="#contacts" class="nav__link">Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="burger" id="openMobileNav">
+            <img
+              src="./img/icons/burger-open.svg"
+              alt="Открыть навигационное меню"
+              class="burger__img"
+            />
+          </button>
+          <div class="header__btn">
+            <button class="btn" type="button" data-action="modal">
+              Booking now
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="mobile-nav" id="mobile-nav">
+      <h2 class="visually-hidden">Mobile navigation</h2>
+      <div class="mobile-nav__header">
+        <a href="index.html" class="mobile-nav__link">
+          <img
+            src="./img/logo/logo-dark.svg"
+            alt="Логотип компании"
+            class="mobile-nav__logo-img"
+          />
+        </a>
+        <button class="mobile-nav__btn" id="closeMobileNav">
+          <img
+            src="./img/icons/burger-close.svg"
+            alt="close mobile navigation"
+            class="mobile-nav__img"
+          />
+        </button>
+      </div>
+      <div class="mobile-nav__body">
+        <ul class="mobile-nav__list">
+          <li class="mobile-nav__item">
+            <a href="#!" class="mobile-nav__link">Home</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="#locations" class="mobile-nav__link">Location</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="#blogs" class="mobile-nav__link">Blog</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="#!" class="mobile-nav__link">About</a>
+          </li>
+          <li class="mobile-nav__item">
+            <a href="#contacts" class="mobile-nav__link">Contact</a>
+          </li>
+        </ul>
+        <div class="mobile-nav__btn">
+          <button class="btn" type="button" data-action="modal">
+            Booking now
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <main class="main">
+      <section class="intro">
+        <div class="container">
+          <div class="intro__wrapper">
+            <h1 class="intro__title">
+              Railtrips To Here, There And Everywhere!
+            </h1>
+            <div class="intro__text">
+              <p>
+                We all wish to start our year the best way possible and also
+                according to a common belief if you have a great start to your.
+              </p>
+            </div>
+            <a href="#offers" class="btn btn--big">Explore more</a>
+          </div>
+        </div>
+      </section>
+      <section class="locations" id="locations">
+        <div class="container">
+          <div class="wrapper">
+            <h2 class="section-title">Popular Location</h2>
+            <div class="locations__text">
+              <p>
+                For every one of us, travel came first. We’ve spent years living
+                as nomads, pioneers, and voyagers— from island hopping in the
+              </p>
+            </div>
+            <div class="locations__cards">
+              <div class="card">
+                <div class="card__img-wrap">
+                  <img
+                    src="./img/locations/locations-01.webp"
+                    srcset="./img/locations/locations-01@2x.webp 2x"
+                    alt="Istanbul"
+                    class="card__img"
+                  />
+                </div>
+                <div class="card__content">
+                  <h3 class="card__title">Istanbul, Turkey</h3>
+                  <div class="card__desc">
+                    <p>
+                      Istanbul is a major city in Turkey that straddles Europe.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__img-wrap">
+                  <img
+                    src="./img/locations/locations-02.webp"
+                    srcset="./img/locations/locations-02@2x.webp 2x"
+                    alt="Kuala Lumpur"
+                    class="card__img"
+                  />
+                </div>
+                <div class="card__content">
+                  <h3 class="card__title">Kuala Lumpur, Malaysia</h3>
+                  <div class="card__desc">
+                    <p>A 272-step long trek leads you to this century.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="card">
+                <div class="card__img-wrap">
+                  <img
+                    src="./img/locations/locations-03.webp"
+                    srcset="./img/locations/locations-03@2x.webp 2x"
+                    alt="Seoul"
+                    class="card__img"
+                  />
+                </div>
+                <div class="card__content">
+                  <h3 class="card__title">Seoul, South Korea</h3>
+                  <div class="card__desc">
+                    <p>
+                      South Korea officially the Republic of Korea is a country
+                      in East Asia.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="offers" id="offers">
+        <div class="container">
+          <div class="offers__wrapper">
+            <h2 class="section-title">Special Offers</h2>
+            <div class="offers__text">
+              <p>
+                With the New Year comes a refreshing sense of wanderlust, a
+                longing in our souls to escape to warmer climates,
+              </p>
+            </div>
+
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <div class="slide__img-wrap">
+                      <img
+                        src="./img/slides/slide-4.webp"
+                        srcset="./img/slides/slide-4@2x.webp 2x"
+                        alt="Sajek Valley"
+                        class="slide__img"
+                      />
+                    </div>
+                    <div class="slide__content">
+                      <h3 class="slide__title">Sajek Valley</h3>
+                      <div class="slide__info">
+                        <div class="slide__location">
+                          <svg
+                            viewBox="0 0 10.8584 15.2012"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="10.858398"
+                            height="15.201172"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Vector"
+                              d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="evenodd"
+                            />
+                            <path
+                              id="Vector"
+                              d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58424 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="nonzero"
+                            />
+                          </svg>
+                          <p>Bangladesh</p>
+                        </div>
+                        <div class="slide__rating">
+                          <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="24.000000"
+                            height="24.000000"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Star 2"
+                              d="M14.5819 7.9463C14.6488 8.15232 14.8408 8.2918 15.0574 8.2918L21.8738 8.2918C22.3582 8.2918 22.5596 8.9116 22.1677 9.19631L16.6531 13.2029C16.4779 13.3302 16.4046 13.5559 16.4715 13.7619L18.5779 20.2447C18.7276 20.7053 18.2003 21.0884 17.8085 20.8037L12.2939 16.7971C12.1186 16.6698 11.8814 16.6698 11.7061 16.7971L6.19153 20.8037C5.79967 21.0884 5.27243 20.7053 5.4221 20.2447L7.52849 13.7619C7.59542 13.5559 7.5221 13.3302 7.34685 13.2029L1.83227 9.1963C1.44041 8.9116 1.6418 8.29179 2.12616 8.29179L8.94256 8.2918C9.15917 8.2918 9.35115 8.15232 9.41809 7.9463L11.5245 1.46353C11.6741 1.00287 12.3259 1.00287 12.4755 1.46353L14.5819 7.9463Z"
+                              fill="rgb(255,199,0)"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                          <span>4.7</span>
+                        </div>
+                      </div>
+                      <div class="slide__period">
+                        <p>3 Day 4 Nights</p>
+                      </div>
+                      <div class="slide__price">
+                        <p>
+                          <span class="slide__price-value">$400</span>/<span
+                            class="slide__price-pers"
+                            >person</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <div class="slide__img-wrap">
+                      <img
+                        src="./img/slides/slide-5.webp"
+                        srcset="./img/slides/slide-5@2x.webp 2x"
+                        alt="Osaka Castle"
+                        class="slide__img"
+                      />
+                    </div>
+                    <div class="slide__content">
+                      <h3 class="slide__title">Osaka Castle</h3>
+                      <div class="slide__info">
+                        <div class="slide__location">
+                          <svg
+                            viewBox="0 0 10.8584 15.2012"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="10.858398"
+                            height="15.201172"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Vector"
+                              d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="evenodd"
+                            />
+                            <path
+                              id="Vector"
+                              d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58424 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="nonzero"
+                            />
+                          </svg>
+                          <p>Japan</p>
+                        </div>
+                        <div class="slide__rating">
+                          <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="24.000000"
+                            height="24.000000"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Star 2"
+                              d="M14.5819 7.9463C14.6488 8.15232 14.8408 8.2918 15.0574 8.2918L21.8738 8.2918C22.3582 8.2918 22.5596 8.9116 22.1677 9.19631L16.6531 13.2029C16.4779 13.3302 16.4046 13.5559 16.4715 13.7619L18.5779 20.2447C18.7276 20.7053 18.2003 21.0884 17.8085 20.8037L12.2939 16.7971C12.1186 16.6698 11.8814 16.6698 11.7061 16.7971L6.19153 20.8037C5.79967 21.0884 5.27243 20.7053 5.4221 20.2447L7.52849 13.7619C7.59542 13.5559 7.5221 13.3302 7.34685 13.2029L1.83227 9.1963C1.44041 8.9116 1.6418 8.29179 2.12616 8.29179L8.94256 8.2918C9.15917 8.2918 9.35115 8.15232 9.41809 7.9463L11.5245 1.46353C11.6741 1.00287 12.3259 1.00287 12.4755 1.46353L14.5819 7.9463Z"
+                              fill="rgb(255,199,0)"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                          <span>4.7</span>
+                        </div>
+                      </div>
+                      <div class="slide__period">
+                        <p>4 Day 5 Nights</p>
+                      </div>
+                      <div class="slide__price">
+                        <p>
+                          <span class="slide__price-value">$700</span>/<span
+                            class="slide__price-pers"
+                            >person</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <div class="slide__img-wrap">
+                      <img
+                        src="./img/slides/slide-1.webp"
+                        srcset="./img/slides/slide-1@2x.webp 2x"
+                        alt="Statue of Liberty"
+                        class="slide__img"
+                      />
+                    </div>
+                    <div class="slide__content">
+                      <h3 class="slide__title">Statue of Liberty</h3>
+                      <div class="slide__info">
+                        <div class="slide__location">
+                          <svg
+                            viewBox="0 0 10.8584 15.2012"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="10.858398"
+                            height="15.201172"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Vector"
+                              d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="evenodd"
+                            />
+                            <path
+                              id="Vector"
+                              d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58424 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="nonzero"
+                            />
+                          </svg>
+                          <p>New York</p>
+                        </div>
+                        <div class="slide__rating">
+                          <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="24.000000"
+                            height="24.000000"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Star 2"
+                              d="M14.5819 7.9463C14.6488 8.15232 14.8408 8.2918 15.0574 8.2918L21.8738 8.2918C22.3582 8.2918 22.5596 8.9116 22.1677 9.19631L16.6531 13.2029C16.4779 13.3302 16.4046 13.5559 16.4715 13.7619L18.5779 20.2447C18.7276 20.7053 18.2003 21.0884 17.8085 20.8037L12.2939 16.7971C12.1186 16.6698 11.8814 16.6698 11.7061 16.7971L6.19153 20.8037C5.79967 21.0884 5.27243 20.7053 5.4221 20.2447L7.52849 13.7619C7.59542 13.5559 7.5221 13.3302 7.34685 13.2029L1.83227 9.1963C1.44041 8.9116 1.6418 8.29179 2.12616 8.29179L8.94256 8.2918C9.15917 8.2918 9.35115 8.15232 9.41809 7.9463L11.5245 1.46353C11.6741 1.00287 12.3259 1.00287 12.4755 1.46353L14.5819 7.9463Z"
+                              fill="rgb(255,199,0)"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                          <span>4.8</span>
+                        </div>
+                      </div>
+                      <div class="slide__period">
+                        <p>4 Day 5 Nights</p>
+                      </div>
+                      <div class="slide__price">
+                        <p>
+                          <span class="slide__price-value">$450</span>/<span
+                            class="slide__price-pers"
+                            >person</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <div class="slide__img-wrap">
+                      <img
+                        src="./img/slides/slide-2.webp"
+                        srcset="./img/slides/slide-2@2x.webp 2x"
+                        alt="The Great Wall"
+                        class="slide__img"
+                      />
+                    </div>
+                    <div class="slide__content">
+                      <h3 class="slide__title">The Great Wall</h3>
+                      <div class="slide__info">
+                        <div class="slide__location">
+                          <svg
+                            viewBox="0 0 10.8584 15.2012"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="10.858398"
+                            height="15.201172"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Vector"
+                              d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="evenodd"
+                            />
+                            <path
+                              id="Vector"
+                              d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58424 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="nonzero"
+                            />
+                          </svg>
+                          <p>China</p>
+                        </div>
+                        <div class="slide__rating">
+                          <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="24.000000"
+                            height="24.000000"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Star 2"
+                              d="M14.5819 7.9463C14.6488 8.15232 14.8408 8.2918 15.0574 8.2918L21.8738 8.2918C22.3582 8.2918 22.5596 8.9116 22.1677 9.19631L16.6531 13.2029C16.4779 13.3302 16.4046 13.5559 16.4715 13.7619L18.5779 20.2447C18.7276 20.7053 18.2003 21.0884 17.8085 20.8037L12.2939 16.7971C12.1186 16.6698 11.8814 16.6698 11.7061 16.7971L6.19153 20.8037C5.79967 21.0884 5.27243 20.7053 5.4221 20.2447L7.52849 13.7619C7.59542 13.5559 7.5221 13.3302 7.34685 13.2029L1.83227 9.1963C1.44041 8.9116 1.6418 8.29179 2.12616 8.29179L8.94256 8.2918C9.15917 8.2918 9.35115 8.15232 9.41809 7.9463L11.5245 1.46353C11.6741 1.00287 12.3259 1.00287 12.4755 1.46353L14.5819 7.9463Z"
+                              fill="rgb(255,199,0)"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                          <span>4.9</span>
+                        </div>
+                      </div>
+                      <div class="slide__period">
+                        <p>7 Day 8 Nights</p>
+                      </div>
+                      <div class="slide__price">
+                        <p>
+                          <span class="slide__price-value">$850</span>/<span
+                            class="slide__price-pers"
+                            >person</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <div class="slide__img-wrap">
+                      <img
+                        src="./img/slides/slide-3.webp"
+                        srcset="./img/slides/slide-3@2x.webp 2x"
+                        alt="Dizin"
+                        class="slide__img"
+                      />
+                    </div>
+                    <div class="slide__content">
+                      <h3 class="slide__title">Dizin</h3>
+                      <div class="slide__info">
+                        <div class="slide__location">
+                          <svg
+                            viewBox="0 0 10.8584 15.2012"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="10.858398"
+                            height="15.201172"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Vector"
+                              d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="evenodd"
+                            />
+                            <path
+                              id="Vector"
+                              d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58424 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="nonzero"
+                            />
+                          </svg>
+                          <p>Iran</p>
+                        </div>
+                        <div class="slide__rating">
+                          <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="24.000000"
+                            height="24.000000"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Star 2"
+                              d="M14.5819 7.9463C14.6488 8.15232 14.8408 8.2918 15.0574 8.2918L21.8738 8.2918C22.3582 8.2918 22.5596 8.9116 22.1677 9.19631L16.6531 13.2029C16.4779 13.3302 16.4046 13.5559 16.4715 13.7619L18.5779 20.2447C18.7276 20.7053 18.2003 21.0884 17.8085 20.8037L12.2939 16.7971C12.1186 16.6698 11.8814 16.6698 11.7061 16.7971L6.19153 20.8037C5.79967 21.0884 5.27243 20.7053 5.4221 20.2447L7.52849 13.7619C7.59542 13.5559 7.5221 13.3302 7.34685 13.2029L1.83227 9.1963C1.44041 8.9116 1.6418 8.29179 2.12616 8.29179L8.94256 8.2918C9.15917 8.2918 9.35115 8.15232 9.41809 7.9463L11.5245 1.46353C11.6741 1.00287 12.3259 1.00287 12.4755 1.46353L14.5819 7.9463Z"
+                              fill="rgb(255,199,0)"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                          <span>4.6</span>
+                        </div>
+                      </div>
+                      <div class="slide__period">
+                        <p>5 Day 6 Nights</p>
+                      </div>
+                      <div class="slide__price">
+                        <p>
+                          <span class="slide__price-value">$550</span>/<span
+                            class="slide__price-pers"
+                            >person</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <div class="slide__img-wrap">
+                      <img
+                        src="./img/slides/slide-4.webp"
+                        srcset="./img/slides/slide-4@2x.webp 2x"
+                        alt="Sajek Valley"
+                        class="slide__img"
+                      />
+                    </div>
+                    <div class="slide__content">
+                      <h3 class="slide__title">Sajek Valley</h3>
+                      <div class="slide__info">
+                        <div class="slide__location">
+                          <svg
+                            viewBox="0 0 10.8584 15.2012"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="10.858398"
+                            height="15.201172"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Vector"
+                              d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="evenodd"
+                            />
+                            <path
+                              id="Vector"
+                              d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58424 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="nonzero"
+                            />
+                          </svg>
+                          <p>Bangladesh</p>
+                        </div>
+                        <div class="slide__rating">
+                          <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="24.000000"
+                            height="24.000000"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Star 2"
+                              d="M14.5819 7.9463C14.6488 8.15232 14.8408 8.2918 15.0574 8.2918L21.8738 8.2918C22.3582 8.2918 22.5596 8.9116 22.1677 9.19631L16.6531 13.2029C16.4779 13.3302 16.4046 13.5559 16.4715 13.7619L18.5779 20.2447C18.7276 20.7053 18.2003 21.0884 17.8085 20.8037L12.2939 16.7971C12.1186 16.6698 11.8814 16.6698 11.7061 16.7971L6.19153 20.8037C5.79967 21.0884 5.27243 20.7053 5.4221 20.2447L7.52849 13.7619C7.59542 13.5559 7.5221 13.3302 7.34685 13.2029L1.83227 9.1963C1.44041 8.9116 1.6418 8.29179 2.12616 8.29179L8.94256 8.2918C9.15917 8.2918 9.35115 8.15232 9.41809 7.9463L11.5245 1.46353C11.6741 1.00287 12.3259 1.00287 12.4755 1.46353L14.5819 7.9463Z"
+                              fill="rgb(255,199,0)"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                          <span>4.7</span>
+                        </div>
+                      </div>
+                      <div class="slide__period">
+                        <p>3 Day 4 Nights</p>
+                      </div>
+                      <div class="slide__price">
+                        <p>
+                          <span class="slide__price-value">$400</span>/<span
+                            class="slide__price-pers"
+                            >person</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <div class="slide__img-wrap">
+                      <img
+                        src="./img/slides/slide-5.webp"
+                        srcset="./img/slides/slide-5@2x.webp 2x"
+                        alt="Osaka Castle"
+                        class="slide__img"
+                      />
+                    </div>
+                    <div class="slide__content">
+                      <h3 class="slide__title">Osaka Castle</h3>
+                      <div class="slide__info">
+                        <div class="slide__location">
+                          <svg
+                            viewBox="0 0 10.8584 15.2012"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="10.858398"
+                            height="15.201172"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Vector"
+                              d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="evenodd"
+                            />
+                            <path
+                              id="Vector"
+                              d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58424 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="nonzero"
+                            />
+                          </svg>
+                          <p>Japan</p>
+                        </div>
+                        <div class="slide__rating">
+                          <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="24.000000"
+                            height="24.000000"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Star 2"
+                              d="M14.5819 7.9463C14.6488 8.15232 14.8408 8.2918 15.0574 8.2918L21.8738 8.2918C22.3582 8.2918 22.5596 8.9116 22.1677 9.19631L16.6531 13.2029C16.4779 13.3302 16.4046 13.5559 16.4715 13.7619L18.5779 20.2447C18.7276 20.7053 18.2003 21.0884 17.8085 20.8037L12.2939 16.7971C12.1186 16.6698 11.8814 16.6698 11.7061 16.7971L6.19153 20.8037C5.79967 21.0884 5.27243 20.7053 5.4221 20.2447L7.52849 13.7619C7.59542 13.5559 7.5221 13.3302 7.34685 13.2029L1.83227 9.1963C1.44041 8.9116 1.6418 8.29179 2.12616 8.29179L8.94256 8.2918C9.15917 8.2918 9.35115 8.15232 9.41809 7.9463L11.5245 1.46353C11.6741 1.00287 12.3259 1.00287 12.4755 1.46353L14.5819 7.9463Z"
+                              fill="rgb(255,199,0)"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                          <span>4.7</span>
+                        </div>
+                      </div>
+                      <div class="slide__period">
+                        <p>4 Day 5 Nights</p>
+                      </div>
+                      <div class="slide__price">
+                        <p>
+                          <span class="slide__price-value">$700</span>/<span
+                            class="slide__price-pers"
+                            >person</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <div class="slide__img-wrap">
+                      <img
+                        src="./img/slides/slide-1.webp"
+                        srcset="./img/slides/slide-1@2x.webp 2x"
+                        alt="Statue of Liberty"
+                        class="slide__img"
+                      />
+                    </div>
+                    <div class="slide__content">
+                      <h3 class="slide__title">Statue of Liberty</h3>
+                      <div class="slide__info">
+                        <div class="slide__location">
+                          <svg
+                            viewBox="0 0 10.8584 15.2012"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="10.858398"
+                            height="15.201172"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Vector"
+                              d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="evenodd"
+                            />
+                            <path
+                              id="Vector"
+                              d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58424 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="nonzero"
+                            />
+                          </svg>
+                          <p>New York</p>
+                        </div>
+                        <div class="slide__rating">
+                          <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="24.000000"
+                            height="24.000000"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Star 2"
+                              d="M14.5819 7.9463C14.6488 8.15232 14.8408 8.2918 15.0574 8.2918L21.8738 8.2918C22.3582 8.2918 22.5596 8.9116 22.1677 9.19631L16.6531 13.2029C16.4779 13.3302 16.4046 13.5559 16.4715 13.7619L18.5779 20.2447C18.7276 20.7053 18.2003 21.0884 17.8085 20.8037L12.2939 16.7971C12.1186 16.6698 11.8814 16.6698 11.7061 16.7971L6.19153 20.8037C5.79967 21.0884 5.27243 20.7053 5.4221 20.2447L7.52849 13.7619C7.59542 13.5559 7.5221 13.3302 7.34685 13.2029L1.83227 9.1963C1.44041 8.9116 1.6418 8.29179 2.12616 8.29179L8.94256 8.2918C9.15917 8.2918 9.35115 8.15232 9.41809 7.9463L11.5245 1.46353C11.6741 1.00287 12.3259 1.00287 12.4755 1.46353L14.5819 7.9463Z"
+                              fill="rgb(255,199,0)"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                          <span>4.8</span>
+                        </div>
+                      </div>
+                      <div class="slide__period">
+                        <p>4 Day 5 Nights</p>
+                      </div>
+                      <div class="slide__price">
+                        <p>
+                          <span class="slide__price-value">$450</span>/<span
+                            class="slide__price-pers"
+                            >person</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="swiper-slide">
+                  <div class="slide">
+                    <div class="slide__img-wrap">
+                      <img
+                        src="./img/slides/slide-2.webp"
+                        srcset="./img/slides/slide-2@2x.webp 2x"
+                        alt="The Great Wall"
+                        class="slide__img"
+                      />
+                    </div>
+                    <div class="slide__content">
+                      <h3 class="slide__title">The Great Wall</h3>
+                      <div class="slide__info">
+                        <div class="slide__location">
+                          <svg
+                            viewBox="0 0 10.8584 15.2012"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="10.858398"
+                            height="15.201172"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Vector"
+                              d="M5.42885 6.51469C6.02854 6.51469 6.51469 6.02854 6.51469 5.42885C6.51469 4.82916 6.02854 4.34302 5.42885 4.34302C4.82916 4.34302 4.34302 4.82916 4.34302 5.42885C4.34302 6.02854 4.82916 6.51469 5.42885 6.51469Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="evenodd"
+                            />
+                            <path
+                              id="Vector"
+                              d="M5.42918 0C2.43567 0 0 2.32946 0 5.19165C0 6.55472 0.621302 8.36738 1.8466 10.5794C2.83064 12.3555 3.96907 13.9615 4.56119 14.7606C4.66124 14.8971 4.79207 15.0082 4.94305 15.0847C5.09403 15.1612 5.26092 15.2011 5.4302 15.2011C5.59947 15.2011 5.76637 15.1612 5.91735 15.0847C6.06833 15.0082 6.19915 14.8971 6.29921 14.7606C6.89031 13.9615 8.02976 12.3555 9.0138 10.5794C10.2371 8.36806 10.8584 6.5554 10.8584 5.19165C10.8584 2.32946 8.42269 0 5.42918 0ZM5.42918 7.60085C4.99966 7.60085 4.57979 7.47348 4.22266 7.23486C3.86553 6.99623 3.58719 6.65706 3.42282 6.26024C3.25845 5.86342 3.21544 5.42677 3.29924 5.00551C3.38303 4.58424 3.58986 4.19729 3.89358 3.89358C4.19729 3.58986 4.58424 3.38303 5.00551 3.29924C5.42677 3.21544 5.86342 3.25845 6.26024 3.42282C6.65706 3.58718 6.99623 3.86553 7.23486 4.22266C7.47349 4.57979 7.60085 4.99966 7.60085 5.42918C7.60022 6.00495 7.37122 6.55696 6.96409 6.96409C6.55696 7.37122 6.00495 7.60022 5.42918 7.60085Z"
+                              fill="rgb(252,18,0)"
+                              fill-rule="nonzero"
+                            />
+                          </svg>
+                          <p>China</p>
+                        </div>
+                        <div class="slide__rating">
+                          <svg
+                            viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink"
+                            width="24.000000"
+                            height="24.000000"
+                            fill="none"
+                            customframe="#000000"
+                          >
+                            <path
+                              id="Star 2"
+                              d="M14.5819 7.9463C14.6488 8.15232 14.8408 8.2918 15.0574 8.2918L21.8738 8.2918C22.3582 8.2918 22.5596 8.9116 22.1677 9.19631L16.6531 13.2029C16.4779 13.3302 16.4046 13.5559 16.4715 13.7619L18.5779 20.2447C18.7276 20.7053 18.2003 21.0884 17.8085 20.8037L12.2939 16.7971C12.1186 16.6698 11.8814 16.6698 11.7061 16.7971L6.19153 20.8037C5.79967 21.0884 5.27243 20.7053 5.4221 20.2447L7.52849 13.7619C7.59542 13.5559 7.5221 13.3302 7.34685 13.2029L1.83227 9.1963C1.44041 8.9116 1.6418 8.29179 2.12616 8.29179L8.94256 8.2918C9.15917 8.2918 9.35115 8.15232 9.41809 7.9463L11.5245 1.46353C11.6741 1.00287 12.3259 1.00287 12.4755 1.46353L14.5819 7.9463Z"
+                              fill="rgb(255,199,0)"
+                              fill-rule="evenodd"
+                            />
+                          </svg>
+                          <span>4.9</span>
+                        </div>
+                      </div>
+                      <div class="slide__period">
+                        <p>7 Day 8 Nights</p>
+                      </div>
+                      <div class="slide__price">
+                        <p>
+                          <span class="slide__price-value">$850</span>/<span
+                            class="slide__price-pers"
+                            >person</span
+                          >
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper__nav">
+              <!-- свой контейнер под управляющие элементы -->
+              <button class="swiper-button-prev" type="button">
+                <svg
+                  viewBox="0 0 14.0042 12.0078"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="14.004150"
+                  height="12.007812"
+                  fill="none"
+                  customFrame="#000000"
+                >
+                  <path
+                    id="Vector"
+                    d="M6 11.0039L1 6.00391L6 1.00391"
+                    fill-rule="nonzero"
+                    stroke="rgb(0,0,0)"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.000000"
+                  />
+                  <path
+                    id="Vector"
+                    d="M13.0001 11.0039L8.00012 6.00391L13.0001 1.00391"
+                    fill-rule="nonzero"
+                    stroke="rgb(0,0,0)"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.000000"
+                  />
+                </svg>
+              </button>
+              <div class="swiper-pagination"></div>
+              <button class="swiper-button-next" type="button">
+                <svg
+                  viewBox="0 0 14.0042 12.0078"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="14.004150"
+                  height="12.007812"
+                  fill="none"
+                  customFrame="#000000"
+                >
+                  <path
+                    id="Vector"
+                    d="M8.00415 11.0039L13.0042 6.00391L8.00415 1.00391"
+                    fill-rule="nonzero"
+                    stroke="rgb(0,0,0)"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.000000"
+                  />
+                  <path
+                    id="Vector"
+                    d="M1.00403 11.0039L6.00403 6.00391L1.00403 1.00391"
+                    fill-rule="nonzero"
+                    stroke="rgb(0,0,0)"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2.000000"
+                  />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="blogs" id="blogs">
+        <div class="container">
+          <h2 class="section-title">From Blog & News</h2>
+          <div class="blogs__text">
+            <p>
+              Welcome to Community Conversations, a new interview series
+              featuring Intrepid travellers, creatives and activists in our
+              community.
+            </p>
+          </div>
+          <div class="blogs__posts">
+            <div class="post post--wide">
+              <div class="post__img-wrap">
+                <img
+                  src="./img/blogs/blogs-1.webp"
+                  srcset="./img/blogs/blogs-1@2x.webp 2x"
+                  alt="Banff National Park"
+                  class="post__img"
+                />
+              </div>
+              <div class="post__content">
+                <h3 class="post__title">Banff National Park</h3>
+                <div class="post__desc">
+                  <p>
+                    Banff National Park lies in the heart of the majestic Rocky
+                    Mountains in the province of Alberta, and showcases some of
+                    Canada's most beautiful scenery.
+                  </p>
+                  <p>
+                    Turquoise-colored lakes, snow-capped peaks, and glaciers are
+                    all easily accessible
+                  </p>
+                </div>
+                <a href="#!" class="post__author-link" target="_blank"
+                  >@thomasalva_adison</a
+                >
+              </div>
+            </div>
+
+            <div class="blogs__small-posts">
+              <div class="post">
+                <div class="post__img-wrap">
+                  <img
+                    src="./img/blogs/blogs-2.webp"
+                    srcset="./img/blogs/blogs-2@2x.webp 2x"
+                    alt="The Hiroshima Peace!"
+                    class="post__img"
+                  />
+                </div>
+                <div class="post__content">
+                  <h3 class="post__title">The Hiroshima Peace!</h3>
+                  <div class="post__desc">
+                    <p>
+                      It was formally opened to the public in August that year.
+                    </p>
+                  </div>
+                  <a
+                    href="#!"
+                    class="post__author-link post__author-link--regular"
+                    target="_blank"
+                    >@shova_bd88</a
+                  >
+                </div>
+              </div>
+
+              <div class="post">
+                <div class="post__img-wrap">
+                  <img
+                    src="./img/blogs/blogs-3.webp"
+                    srcset="./img/blogs/blogs-3@2x.webp 2x"
+                    alt="The faithful prayers!"
+                    class="post__img"
+                  />
+                </div>
+                <div class="post__content">
+                  <h3 class="post__title">The faithful prayers!</h3>
+                  <div class="post__desc">
+                    <p>A major pilgrimage center for Hindus, the holy city.</p>
+                  </div>
+                  <a
+                    href="#!"
+                    class="post__author-link post__author-link--regular"
+                    target="_blank"
+                  >
+                    @adem/smith
+                  </a>
+                </div>
+              </div>
+
+              <div class="post">
+                <div class="post__img-wrap">
+                  <img
+                    src="./img/blogs/blogs-4.webp"
+                    srcset="./img/blogs/blogs-4@2x.webp 2x"
+                    alt="Colourful waters!"
+                    class="post__img"
+                  />
+                </div>
+                <div class="post__content">
+                  <h3 class="post__title">Colourful waters!</h3>
+                  <div class="post__desc">
+                    <p>Forest-driven water and energy cycles are poorly.</p>
+                  </div>
+                  <a
+                    href="#!"
+                    class="post__author-link post__author-link--regular"
+                    target="_blank"
+                    >@jhon7leew</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" id="contacts">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__info">
+            <div class="logo footer__logo">
+              <a href="index.html" class="logo__link"
+                ><img
+                  src="img/logo/logo-dark.svg"
+                  alt="Traveland"
+                  class="logo__img"
+              /></a>
+            </div>
+            <h2 class="footer__address-title">Contact us</h2>
+            <address class="footer__address">
+              <a href="#!" class="footer__link">@shovasatkhira88.com</a>
+            </address>
+            <ul class="social-media">
+              <li class="social-media__item">
+                <a href="#!" class="social-media__link"
+                  ><img
+                    src="./img/icons/facebook.svg"
+                    alt="facebook"
+                    class="social-media__icon"
+                /></a>
+              </li>
+              <li class="social-media__item">
+                <a href="#!" class="social-media__link"
+                  ><img
+                    src="./img/icons/instagram.svg"
+                    alt="instagram"
+                    class="social-media__icon"
+                /></a>
+              </li>
+              <li class="social-media__item">
+                <a href="#!" class="social-media__link"
+                  ><img
+                    src="./img/icons/twitter.svg"
+                    alt="twitter"
+                    class="social-media__icon"
+                /></a>
+              </li>
+              <li class="social-media__item">
+                <a href="#!" class="social-media__link"
+                  ><img
+                    src="./img/icons/google.svg"
+                    alt="google"
+                    class="social-media__icon"
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__lists">
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#!" class="footer__link footer__link--medium"
+                  >Services</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="#!" class="footer__link footer__link--medium">About</a>
+              </li>
+              <li class="footer__item">
+                <a href="#!" class="footer__link footer__link--medium"
+                  >Our story</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="#!" class="footer__link footer__link--medium"
+                  >Benefits</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="#!" class="footer__link footer__link--medium"
+                  >Branding</a
+                >
+              </li>
+            </ul>
+
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#!" class="footer__link footer__link--medium">Legal</a>
+              </li>
+              <li class="footer__item">
+                <a href="#!" class="footer__link footer__link--medium"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="#!" class="footer__link footer__link--medium"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li class="footer__item">
+                <a href="#!" class="footer__link footer__link--medium"
+                  >Terms of use</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="footer__subscribe">
+            <h2 class="footer__subscribe-title">Subscribe now</h2>
+            <form action="#" class="form">
+              <input type="email" class="input" placeholder="Email" />
+              <button class="btn btn--small">Send</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <section class="modal">
+      <!-- Белая плашка с окном -->
+      <div class="modal__body">
+        <button class="modal__close" type="button" id="closeModal">
+          <img src="img/icons/modal-close.svg" alt="Закрытие модального окна" />
+        </button>
+        <div class="modal__header">
+          <h2 class="modal__title">Request a call</h2>
+          <p>We'll call you back in 15 minutes</p>
+        </div>
+        <form class="modal__inputs">
+          <input
+            type="text"
+            class="input input--width-100"
+            name="user-name"
+            placeholder="Name"
+          />
+          <input
+            type="tel"
+            class="input input--width-100"
+            name="user-phone"
+            placeholder="Phone"
+          />
+          <label class="modal__checkbox-label">
+            <input
+              type="checkbox"
+              class="real-checkbox visually-hidden"
+              name="agreement"
+              value="yes"
+              required
+            />
+            <span class="fake-checkbox"></span>
+            I agree to the processing of personal data
+          </label>
+          <button class="btn">Submit</button>
+        </form>
+      </div>
+    </section>
+    <script src="./js/mobile-nav.js"></script>
+    <script src="./js/modal.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+$primary-font: "Roboto", sans-serif;
+$secondary-font: "Gelasio", sans-serif;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $primary-font;
+  background-color: #ffffff;
+
+}
+
+a:focus-visible {
+  outline: 2px solid #c9453b;
+  outline-offset: 2px;
+}
+
+
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+  max-width: 1170px;
+}
+
+.main {
+  margin-bottom: 140px;
+  display: flex;
+  flex-direction: column;
+  gap: 140px;
+  @include tablet {
+    margin-bottom: 70px;
+    gap: 70px;
+  }
+  @include mobile {
+    margin-bottom: 35px;
+    gap: 35px;
+  }
+
+}
+
+.logo {
+  flex-shrink: 0;
+  &__img {
+    width: 124px;
+    height: 36px;
+  }
+}
+
+.section-title {
+  margin-bottom: 20px;
+  font-family: $secondary-font;
+  font-size: 43px;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #000000;
+  text-align: center;
+  @include tablet {
+    font-size: 32px;
+  }
+  @include mobile {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}

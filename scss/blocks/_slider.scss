@@ -1,0 +1,79 @@
+.swiper {
+  &-slide {
+    width: 262px;
+  }
+  &__nav {
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    @include mobile {
+      justify-content: space-between;
+      gap: 10px;
+      
+    }
+  }
+  &-button-prev,
+  &-button-next {
+    position: absolute; 
+    width: auto;
+    height: auto;
+    margin: 0;
+    &::after {
+      display: none;
+    }
+    @include mobile {
+      position: static;
+    }
+  }
+  &-button-prev {
+    left: calc(50% - 167.5px);
+    top: 50%;
+    transform: translate(-50%, -50%);
+    @include tablet {
+      left: 0;
+      transform: translateY(-50%);
+    }
+  }
+
+  &-button-next {
+    right: calc(50% - 167.5px);
+    top: 50%;
+    transform: translate(50%, -50%);
+    
+  @include tablet {
+    right: 0;
+    transform: translateY(-50%);
+  }
+  }
+  &-pagination {
+    max-width: 335px;
+    position: static;
+    display: flex;
+    justify-content: center;
+    gap: 3px;
+    &-bullet {
+      width: 75px;
+      min-width: 0;
+      flex-shrink: 1;
+      height: 5px;
+      border-radius: 10px;
+      background: rgba(201, 69, 59, 0.1);
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+      margin: 0;
+
+        @include tablet {
+    width: 40px;
+  }
+  @include mobile {
+    width: 24px;
+  }
+      &-active {
+        background: rgba(201, 69, 59, 1);
+      }
+    }
+  }
+}
