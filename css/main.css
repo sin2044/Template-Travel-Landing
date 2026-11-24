@@ -166,6 +166,11 @@ a:focus-visible {
   height: 36px;
 }
 
+.burger__img {
+  width: 34px;
+  height: 14px;
+}
+
 .section-title {
   margin-bottom: 20px;
   font-family: "Gelasio", sans-serif;

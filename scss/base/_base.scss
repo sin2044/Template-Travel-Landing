@@ -8,15 +8,12 @@ html {
 body {
   font-family: $primary-font;
   background-color: #ffffff;
-
 }
 
 a:focus-visible {
   outline: 2px solid #c9453b;
   outline-offset: 2px;
 }
-
-
 
 .container {
   margin: 0 auto;
@@ -37,7 +34,6 @@ a:focus-visible {
     margin-bottom: 35px;
     gap: 35px;
   }
-
 }
 
 .logo {
@@ -45,6 +41,13 @@ a:focus-visible {
   &__img {
     width: 124px;
     height: 36px;
+  }
+}
+
+.burger {
+  &__img {
+    width: 34px;
+    height: 14px;
   }
 }
 
